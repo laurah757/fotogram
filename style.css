@@ -5,7 +5,13 @@
 
 body {
   box-sizing: border-box;
-  background-color: #FCD5CE;
+}
+
+header {
+  background-color: #deffea;
+  width: auto;
+  height: 100px;
+
 }
 
 @font-face {
@@ -19,7 +25,7 @@ body {
   gap: 8px;
   margin-top: 16px;
   margin-left: 16px;
-  color: #f6f1f0;
+  color: black;
 }
 
 h1 {
@@ -38,17 +44,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.pic_container_outer {
-  background-color: #f6f1f0;
-  height: 800px;
-  width: 1600px;
-  margin-top: 72px;
-  border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: white;
 }
 
 .pic_container_inner {
@@ -57,7 +53,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 100%;
+  width: 90%;
   
 }
 
@@ -81,5 +77,11 @@ main {
   transform: scale(1.1);
   cursor: pointer;
 }
+ 
+footer {
+  background-color: #deffea;
+  height: 100px;  
+}
+
 
 
